@@ -1,0 +1,25 @@
+name: example
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_custom_tooltip:
+    path: ../../google_maps_custom_tooltip
+  google_maps_flutter: ^2.2.3
+  google_maps_flutter_web: ^0.4.0+5
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
