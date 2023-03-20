@@ -1,4 +1,3 @@
-## 0.0.2
+## 0.0.3
 
-* Added web support back.
-* Updated README.
+* Added platforms support.
