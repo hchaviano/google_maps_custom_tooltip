@@ -3,9 +3,9 @@
 This package provides a custom tooltip widget that appears above a marker in a Google Map. 
 The tooltip contains a title and an optional body and is fully customizable.
 
-|             | Android | iOS   | Linux | macOS  | Web | Windows     |
-|-------------|---------|-------|-------|--------|-----|-------------|
-| **Support** | SDK 16+ | 11.0+ | Any   | 10.11+ | Any | Windows 10+ |
+|             | Android | iOS   | Web |
+|-------------|---------|-------|-----|
+| **Support** | SDK 16+ | 11.0+ | Any |
 
 ## Installation
 
