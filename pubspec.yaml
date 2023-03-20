@@ -1,6 +1,6 @@
 name: google_maps_custom_tooltip
 description: Custom tooltip widget that appears above a marker in a Google Map.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/hchaviano/google_maps_custom_tooltip
 platforms:
   android:
