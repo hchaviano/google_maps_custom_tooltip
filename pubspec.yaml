@@ -1,5 +1,5 @@
 name: google_maps_custom_tooltip
-description: A new Flutter project.
+description: Custom tooltip widget that appears above a marker in a Google Map.
 version: 0.0.1
 homepage: https://github.com/hchaviano/google_maps_custom_tooltip
 
