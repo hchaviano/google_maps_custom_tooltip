@@ -1,0 +1,29 @@
+name: google_maps_custom_tooltip
+
+on:
+  pull_request:
+    paths:
+      - "lib/**"
+
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: .
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.7.7
+          channel: "stable"
+
+      - name: Install Dependencies
+        run: flutter packages get
+
+      - name: Format
+        run: flutter format --set-exit-if-changed lib test
+
+      - name: Analyze
+        run: flutter analyze lib test
